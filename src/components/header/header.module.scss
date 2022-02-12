@@ -1,0 +1,52 @@
+@import "../../theme/main.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $backround-color-primary;
+  height: 9.6rem;
+  padding: 0 4.6rem;
+}
+.logo {
+  height: 24rem;
+}
+
+.mainNavList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.mainNavLink:link,
+.mainNavVisted:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.mainNavLink:hover,
+.mainNavVisted:active {
+  color: $color-hover;
+}
+
+.mainNavCta:link,
+.mainNavCta:visited {
+  display: inline-block;
+  background-color: $color-primary;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+
+.mainNavCta:hover,
+.mainNavCta:active {
+  background-color: $color-hover;
+  color: $accent-color-one;
+}

@@ -1,0 +1,12 @@
+@import "./theme/main.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: $text-color-primary;
+  box-sizing: border-box;
+}

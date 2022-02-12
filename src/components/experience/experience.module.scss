@@ -1,0 +1,61 @@
+@import "../../theme/main.scss";
+
+.section_experience {
+  padding: 9.6rem 0;
+  background-color: $backround-color-primary;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.container_grid {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.job_img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job_img {
+  width: 100%;
+  border: 5px solid $color-primary;
+  border-radius: 5px;
+}
+
+.heading_primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-bottom: 9.6rem;
+}
+
+.job_title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #1f232d;
+}
+
+.job_date {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+}
+
+.job_description {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #383c45;
+}
